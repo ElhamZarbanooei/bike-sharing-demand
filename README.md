@@ -1,24 +1,25 @@
 # Bike Sharing Demand Prediction 
-This project explores and predicts hourly bike rental demand using historical usage data and weather conditions.
 
-## What I Did
-- Performed EDA (exploratory data analysis) on hourly rental data
-- Built and evaluated a Linear Regression model
-- Visualized model performance using actual vs. predicted plots
-- Discussed findings and future improvements
+This project analyzes and predicts hourly bike rental demand using historical usage patterns and weather data.
 
-## Goals
-Help bike-sharing services better allocate bikes during peak and low-demand hours.
+## Project Overview
 
-## Files Included
-- `bike-sharing-demand.ipynb`: Full analysis + modeling
-- `actual_vs_predicted.png`: Visualization of prediction accuracy
-- `README.md`: This file
+- **Objective**: Predict hourly bike rental demand to help optimize bike-sharing operations.
+- **Data Source**: [Kaggle Bike Sharing Demand Dataset](https://www.kaggle.com/c/bike-sharing-demand)
+- **Techniques Used**:
+  - Exploratory Data Analysis (EDA)
+  - Data Preprocessing
+  - Linear Regression Modeling
+  - Model Evaluation Metrics
 
-## Dataset
-The dataset is from [Kaggle’s Bike Sharing Demand competition](https://www.kaggle.com/c/bike-sharing-demand/data)
+## Repository Structure
 
----
+- `bike-sharing-demand.ipynb`: Main Jupyter notebook containing the analysis and model.
+- `images/`: Folder containing visualizations generated during EDA and model evaluation.
+- `README.md`: Project overview and instructions.
 
-**Author:** Elham Zarbanooei  
-Follow me on [LinkedIn](https://www.linkedin.com/in/elhamzarbanooei/)
+## How to Run
+
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/ElhamZarbanooei/bike-sharing-demand.git
